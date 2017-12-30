@@ -33,8 +33,8 @@ A homemade safe powered by a raspberry pi.
         edit the /etc/rc.local and type ```sudo python /path/to/safe.py/file``` before the exit0</p>
       <p>If you want also web server on it intall the apache2 web server and
         configure python script running using <a href="https://www.raspberrypi.org/forums/viewtopic.php?t=155229">this
-          tutorial</a>. Paste <a href="indexrpi.html">this</a> file in
-        /var/www/html and rename it index.html. Download the <a href="safeweb.py">safeweb.py</a>
+          tutorial</a>. Paste <a href="index.html">this</a> file in
+        /var/www/html. Download the <a href="safeweb.py">safeweb.py</a>
         file and paste it in /usr/lib/cgi-bin. Make it executable, so type in
         the terminal window ```sudo chmod +x /usr/lib/cgi-bin/swafeweb.py ```
 	Restart the web server using ```sudo service apache2 restart```.
