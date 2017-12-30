@@ -41,8 +41,7 @@ A homemade safe powered by a raspberry pi.
       <p>4.<b>Software</b></p>
       <p>Configure the Adafruit CharLCD plate using <a href="https://learn.adafruit.com/character-lcd-with-raspberry-pi-or-beaglebone-black/usage">this
           tutorial</a>. Download the <a href="safe.py">safe.py</a> and the <a
-
-          href="code.txt"> code.txt</a> file and paste it in /home/pi/safe (you
+	href="code.txt"> code.txt</a> file and paste it in /home/pi/safe (you
         can put it anywhere, but then you will need to change the code.) Run it.
         It work's! Button up and down change the value of the digits, and the
         left and right set's what digit to change. And it start's to display the
@@ -56,7 +55,8 @@ A homemade safe powered by a raspberry pi.
         file and paste it in /usr/lib/cgi-bin. Make it executable, so type in
         the terminal window <span class="code">sudo chmod +x
           /usr/lib/cgi-bin/swafeweb.py</span> Restart the web server using <span
-
-          class="code">sudo service apache2 restart</span>. Make the code.txt
+	class="code">sudo service apache2 restart</span>. Make the code.txt
         writeable by anyone, so code.txt →right click →Properties →Permissions
         →Change content →Anyone</p>
+	</body>
+</html>
