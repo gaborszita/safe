@@ -3,11 +3,6 @@ A homemade safe powered by a raspberry pi.
 <!DOCTYPE html>
 <html>
 <head>
-	<style>
-	.code{
-	background-color: #bfbfbf;
-	}
-	</style>
  </head>
  <body>
       <p> Web server also on it:</p>
@@ -48,8 +43,7 @@ A homemade safe powered by a raspberry pi.
         /var/www/html and rename it index.html. Download the <a href="safeweb.py">safeweb.py</a>
         file and paste it in /usr/lib/cgi-bin. Make it executable, so type in
         the terminal window <span class="code" style="background-color:#bfbfbf;">sudo chmod +x
-          /usr/lib/cgi-bin/swafeweb.py</span> Restart the web server using <span
-	class="code" style="background-color: #bfbfbf;">sudo service apache2 restart</span>. Make the code.txt
+          /usr/lib/cgi-bin/swafeweb.py</span> Restart the web server using <span class="code" style="background-color: #bfbfbf;">sudo service apache2 restart</span>. Make the code.txt
         writeable by anyone, so code.txt →right click →Properties →Permissions
         →Change content →Anyone</p>
 	</body>
