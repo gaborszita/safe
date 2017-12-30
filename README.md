@@ -10,14 +10,8 @@ A homemade safe powered by a raspberry pi.
   </style>
  </head>
  <body>
-  <h2 class="pagetitle">My homemade safe</h2>
-      <p style="font-size: 15px; text-decoration: underline">I made a homemade
-        safe</p>
-      <p><br>
-        <iframe src="https://www.youtube.com/embed/W0mbXiqvS0s" height="345" width="300">
-        </iframe></p>
       <p> Web server also on it:</p>
-      <img src="./web1.JPG" alt="Web server image 1"><br>
+      <img src="https://www.gaborszita.tk/my-creations/safe/web1.JPG" alt="Web server image 1"><br>
       <img src="./web2.JPG" alt="Web server image 2"><br>
       <p>Instructions:</p>
       <p>1. <b>Hardware</b></p>
