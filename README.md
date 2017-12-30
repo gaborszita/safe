@@ -1,6 +1,6 @@
 # safe
 A homemade safe powered by a raspberry pi
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head></head>
   <body><h2>bing</h2></body>
