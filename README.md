@@ -40,16 +40,16 @@ A homemade safe powered by a raspberry pi.
         It work's! Button up and down change the value of the digits, and the
         left and right set's what digit to change. And it start's to display the
         time if it's inactive for 2 minutes. To start it every time on startup
-        edit the /etc/rc.local and type <span class="code">sudo python
+        edit the /etc/rc.local and type <span class="code" style="background-color: #bfbfbf;">sudo python
           /path/to/safe.py/file</span> before the exit0</p>
       <p>If you want also web server on it intall the apache2 web server and
         configure python script running using <a href="https://www.raspberrypi.org/forums/viewtopic.php?t=155229">this
           tutorial</a>. Paste <a href="indexrpi.html">this</a> file in
         /var/www/html and rename it index.html. Download the <a href="safeweb.py">safeweb.py</a>
         file and paste it in /usr/lib/cgi-bin. Make it executable, so type in
-        the terminal window <span class="code">sudo chmod +x
+        the terminal window <span class="code" style="background-color:#bfbfbf;">sudo chmod +x
           /usr/lib/cgi-bin/swafeweb.py</span> Restart the web server using <span
-	class="code">sudo service apache2 restart</span>. Make the code.txt
+	class="code" style="background-color: #bfbfbf;">sudo service apache2 restart</span>. Make the code.txt
         writeable by anyone, so code.txt →right click →Properties →Permissions
         →Change content →Anyone</p>
 	</body>
