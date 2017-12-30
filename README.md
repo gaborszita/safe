@@ -6,7 +6,7 @@ A homemade safe powered by a raspberry pi.
   <style>
    .code{
 	background-color: #bfbfbf;
-}
+	}
   </style>
  </head>
  <body>
