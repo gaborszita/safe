@@ -4,9 +4,9 @@ A homemade safe powered by a raspberry pi.
 <html>
  <head>
   <style>
-  	.code{
-	background-color: #bfbfbf;
-	}
+.code{
+background-color: #bfbfbf;
+}
   </style>
  </head>
  <body>
