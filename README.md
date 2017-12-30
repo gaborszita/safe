@@ -1,10 +1,5 @@
 # safe
 A homemade safe powered by a raspberry pi.
-<!DOCTYPE html>
-<html>
-<head>
- </head>
- <body>
       <p> Web server also on it:</p>
       <img src="https://www.gaborszita.tk/my-creations/safe/web1.JPG" alt="Web server image 1"><br>
       <img src="https://www.gaborszita.tk/my-creations/safe/web2.JPG" alt="Web server image 2"><br>
@@ -42,12 +37,9 @@ A homemade safe powered by a raspberry pi.
           tutorial</a>. Paste <a href="indexrpi.html">this</a> file in
         /var/www/html and rename it index.html. Download the <a href="safeweb.py">safeweb.py</a>
         file and paste it in /usr/lib/cgi-bin. Make it executable, so type in
-        the terminal window <span class="code" style="background-color: #bfbfbf;">sudo chmod +x
-	      /usr/lib/cgi-bin/swafeweb.py</span> Restart the web server using <span class="code" style="background-color: #bfbfbf;">sudo service apache2 restart</span>. Make the code.txt
-        writeable by anyone, so code.txt →right click →Properties →Permissions
-        →Change content →Anyone</p>
-	</body>
-</html>
-'''
-b
-'''
+        the terminal window ```sudo chmod +x /usr/lib/cgi-bin/swafeweb.py ```
+	Restart the web server using ```sudo service apache2 restart```.
+	Make the code.txt
+	writeable by anyone, so code.txt →right click →Properties →Permissions
+ 	→Change content →Anyone</p>
+
