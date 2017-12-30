@@ -30,8 +30,7 @@ A homemade safe powered by a raspberry pi.
         It work's! Button up and down change the value of the digits, and the
         left and right set's what digit to change. And it start's to display the
         time if it's inactive for 2 minutes. To start it every time on startup
-        edit the /etc/rc.local and type <span class="code" style="background-color: #bfbfbf;">sudo python
-          /path/to/safe.py/file</span> before the exit0</p>
+        edit the /etc/rc.local and type '''sudo python /path/to/safe.py/file''' before the exit0</p>
       <p>If you want also web server on it intall the apache2 web server and
         configure python script running using <a href="https://www.raspberrypi.org/forums/viewtopic.php?t=155229">this
           tutorial</a>. Paste <a href="indexrpi.html">this</a> file in
