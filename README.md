@@ -2,12 +2,12 @@
 A homemade safe powered by a raspberry pi.
 <!DOCTYPE html>
 <html>
- <head>
-<style>
-.code{
-background-color: #bfbfbf;
-}
-</style>
+<head>
+	<style>
+	.code{
+	background-color: #bfbfbf;
+	}
+	</style>
  </head>
  <body>
       <p> Web server also on it:</p>
