@@ -1,7 +1,62 @@
 # safe
-A homemade safe powered by a raspberry pi
+A homemade safe powered by a raspberry pi.
 <!DOCTYPE html>
 <html>
-  <head></head>
-  <body><h2>bing</h2></body>
-</html>
+ <head>
+  <style>
+   .code{
+	background-color: #bfbfbf;
+}
+  </style>
+ </head>
+ <body>
+  <h2 class="pagetitle">My homemade safe</h2>
+      <p style="font-size: 15px; text-decoration: underline">I made a homemade
+        safe</p>
+      <p><br>
+        <iframe src="https://www.youtube.com/embed/W0mbXiqvS0s" height="345" width="300">
+        </iframe></p>
+      <p> Web server also on it:</p>
+      <img src="./web1.JPG" alt="Web server image 1"><br>
+      <img src="./web2.JPG" alt="Web server image 2"><br>
+      <p>Instructions:</p>
+      <p>1. <b>Hardware</b></p>
+      <p>First, buy a raspberry pi($35), an Adafruit CharLCD plate, an electric
+        lock,an NPN transistor and an adapter, that has both 12V and 5V output.
+        Then build a case(could be wood, like mine or anything you want.) For
+        setting up the raspberry pi see <a href="https://www.raspberrypi.org/help/noobs-setup/2/">this
+          tutorial</a>. Enabling vnc and ssh is also helpful.</p>
+      <br>
+      <br>
+      <p>2. <b>Building it</b></p>
+      <p>Mount the raspberry pi and the electric lock in the safe and the
+        Adafruit CharLCD plate on the rpi. I also recommend buiding a keyhole,
+        because the software may crash.</p>
+      <img src="safeoff1.jpg" alt="Safe image 1" height="300px"><br>
+      <img src="safeoff2.jpg" alt="Safe image 2" height="300px">
+      <p>3.<b>Wiring</b></p>
+      <p>Connect the wires as shown. You can connect the NPN to another pin, but
+        then you will need to change the code.</p>
+      <img src="schematics.gif" alt="Schematics" height="700px"><br>
+      <p>4.<b>Software</b></p>
+      <p>Configure the Adafruit CharLCD plate using <a href="https://learn.adafruit.com/character-lcd-with-raspberry-pi-or-beaglebone-black/usage">this
+          tutorial</a>. Download the <a href="safe.py">safe.py</a> and the <a
+
+          href="code.txt"> code.txt</a> file and paste it in /home/pi/safe (you
+        can put it anywhere, but then you will need to change the code.) Run it.
+        It work's! Button up and down change the value of the digits, and the
+        left and right set's what digit to change. And it start's to display the
+        time if it's inactive for 2 minutes. To start it every time on startup
+        edit the /etc/rc.local and type <span class="code">sudo python
+          /path/to/safe.py/file</span> before the exit0</p>
+      <p>If you want also web server on it intall the apache2 web server and
+        configure python script running using <a href="https://www.raspberrypi.org/forums/viewtopic.php?t=155229">this
+          tutorial</a>. Paste <a href="indexrpi.html">this</a> file in
+        /var/www/html and rename it index.html. Download the <a href="safeweb.py">safeweb.py</a>
+        file and paste it in /usr/lib/cgi-bin. Make it executable, so type in
+        the terminal window <span class="code">sudo chmod +x
+          /usr/lib/cgi-bin/swafeweb.py</span> Restart the web server using <span
+
+          class="code">sudo service apache2 restart</span>. Make the code.txt
+        writeable by anyone, so code.txt →right click →Properties →Permissions
+        →Change content →Anyone</p>
