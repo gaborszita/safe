@@ -21,7 +21,7 @@ A homemade safe powered by a raspberry pi.
       <p>3.<b>Wiring</b></p>
       <p>Connect the wires as shown. You can connect the NPN to another pin, but
         then you will need to change the code.</p>
-      <img src="https://www.gaborszita.tk/my-creations/safe/schematics.gif" alt="Schematics" height="700px"><br>
+      <img src="https://www.gaborszita.tk/my-creations/safe/schematics.gif" alt="Schematics" height="700px" width="100%"><br>
       <p>4.<b>Software</b></p>
       <p>Configure the Adafruit CharLCD plate using <a href="https://learn.adafruit.com/character-lcd-with-raspberry-pi-or-beaglebone-black/usage">this
           tutorial</a>. Download the <a href="safe.py">safe.py</a> and the <a
