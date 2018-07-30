@@ -1,8 +1,8 @@
 # safe
 A homemade safe powered by a raspberry pi.
       <p> Web server also on it:</p>
-      <img src="https://www.gaborszita.tk/my-creations/safe/web1.JPG" alt="Web server image 1"><br>
-      <img src="https://www.gaborszita.tk/my-creations/safe/web2.JPG" alt="Web server image 2"><br>
+      <img src="https://www.gaborszita.net/my-creations/safe/web1.JPG" alt="Web server image 1"><br>
+      <img src="https://www.gaborszita.net/my-creations/safe/web2.JPG" alt="Web server image 2"><br>
       <p>Instructions:</p>
       <p>1. <b>Hardware</b></p>
       <p>First, buy a raspberry pi($35), an Adafruit CharLCD plate, an electric
@@ -16,8 +16,8 @@ A homemade safe powered by a raspberry pi.
       <p>Mount the raspberry pi and the electric lock in the safe and the
         Adafruit CharLCD plate on the rpi. I also recommend buiding a keyhole,
         because the software may crash.</p>
-      <img src="https://www.gaborszita.tk/my-creations/safe/safeoff1.jpg" alt="Safe image 1" height="300px"><br>
-      <img src="https://www.gaborszita.tk/my-creations/safe/safeoff2.jpg" alt="Safe image 2" height="300px">
+      <img src="https://www.gaborszita.net/my-creations/safe/safeoff1.jpg" alt="Safe image 1" height="300px"><br>
+      <img src="https://www.gaborszita.net/my-creations/safe/safeoff2.jpg" alt="Safe image 2" height="300px">
       <p>3.<b>Wiring</b></p>
       <p>Connect the wires as shown. You can connect the NPN to another pin, but
         then you will need to change the code.</p>
