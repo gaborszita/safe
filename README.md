@@ -40,5 +40,11 @@ A homemade safe powered by a raspberry pi.
 	Restart the web server using ```sudo service apache2 restart```.
 	Make the code.txt
 	writeable by anyone, so code.txt →right click →Properties →Permissions
- 	→Change content →Anyone</p>
+ 	→Change content →Anyone</p> You may wonder how the system declines, when an ananymous(person, who has not logged to to the code 
+	managment page) tryes to post action=changecode and newcode=somecode. This is why the form has a hidden input value "securety". 
+	It is like a master key, the chain of trust. If someone knows the master key, but doesn't knows the password, he also has full 
+	access to the web-based code changing protocol. This is why you should change the master key in the safeweb.py file. If you 
+	leave it default and someone checks this GitHub repository, checks the default master key in the safeweb.py file, uses it on 
+	your safe and he can change the code on the safe. You can change the master key by replacing all occurences of 
+	"TghXCDre54ncDDAG7cxrDsRdCsfdGg" in the safeweb.py file.
 
